@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+    background-color: #CFDDE8; 
+  }
+  
+  header {
+    padding: 5px;
+    display: block;
+    width: 100%;
+    color: #03A1BD;
+    text-align: center;
+    border-bottom: 5px solid #9C9CD1;
+    margin: 10px;
+    background-color: #BAC6E3;
+  }
+  
+  nav {
+    width:125px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;   
+  }
+
+  nav ul {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 45px;
+  }
+
+  article {
+    width: 450px;
+    display: inline-block;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  section {
+      width: 125px;
+      height: 100%;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 10px;
+  }
+ 
+  footer {
+    width: 100%;
+    text-align: center;
+    padding:5px;
+    display: block;
+    background-color: black;
+    color: #71BDB2;
+
+  }
+  .saved_puppies {
+      max-width: 100%;
+  }
+  .multiple_puppies {
+      width: 450px;
+  }
+  h1 {
+      font-size: 50px;
+  }
+  ul {
+    list-style-type: none;
+  }

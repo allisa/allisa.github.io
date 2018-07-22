@@ -1,0 +1,71 @@
+/* Styling for index.html */
+
+html {
+    height: 100%;
+  }
+
+  h1{
+    text-align: center;
+    padding: 5px;
+    margin-left: 116px;
+    font-size: 40;
+    color: A67865;
+    border-bottom: 5px solid white;
+  }
+  
+  body {
+    height: 100%;
+    background-color: #B5E2FF
+  }
+
+  
+  header {
+    padding: 5px;
+    display: block;
+    width: 790px;
+  }
+  
+  nav {
+    background-color: white;
+    width:150px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  nav ul {
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    list-style-type: none;
+  }
+
+  .link-text{
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  
+  a {
+    color: #A67865
+  }
+  
+  section {
+    width: 516px;
+    display: inline-block;
+  }
+  
+  aside {
+    width: 125px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  aside ul {
+    list-style-type: none;
+  }
+  
+  footer {
+    width: 790px;
+    padding:5px;
+    display: block;
+  }
