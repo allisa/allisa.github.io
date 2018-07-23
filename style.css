@@ -1,71 +1,73 @@
-/* Styling for index.html */
-
 html {
-    height: 100%;
-  }
+  height: 100%;
+}
 
-  h1{
-    text-align: center;
-    padding: 5px;
-    margin-left: 116px;
-    font-size: 40;
-    color: A67865;
-    border-bottom: 5px solid white;
-  }
-  
-  body {
-    height: 100%;
-    background-color: #B5E2FF
-  }
+body {
+  height: 100%;
+  background-color: #CFDDE8; 
+}
 
-  
-  header {
-    padding: 5px;
-    display: block;
-    width: 790px;
-  }
-  
-  nav {
-    background-color: white;
-    width:150px;
-    display: inline-block;
-    vertical-align: top;
-  }
-  
-  nav ul {
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-    list-style-type: none;
-  }
+header {
+  padding: 5px;
+  display: block;
+  width: 100%;
+  color: #03A1BD;
+  text-align: center;
+  border-bottom: 5px solid #9C9CD1;
+  background-color: #BAC6E3;
+}
 
-  .link-text{
-    text-align: center;
-    font-size: 20px;
-    line-height: 40px;
-  }
-  
-  a {
-    color: #A67865
-  }
-  
-  section {
-    width: 516px;
-    display: inline-block;
-  }
-  
-  aside {
+nav {
+  width:125px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;   
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: 18px;
+  line-height: 45px;
+}
+
+article {
+  width: 900px;
+  display: inline-block;
+  border: 5px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+
+section {
     width: 125px;
+    height: 100%;
     display: inline-block;
     vertical-align: top;
-  }
-  
-  aside ul {
-    list-style-type: none;
-  }
-  
-  footer {
-    width: 790px;
-    padding:5px;
-    display: block;
-  }
+    margin-left: 10px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding:5px;
+  display: block;
+  background-color: black;
+  color: #71BDB2;
+
+}
+.saved_puppies {
+    max-width: 100%;
+}
+.multiple_puppies {
+    width: 450px;
+}
+h1 {
+    font-size: 50px;
+}
+ul {
+  list-style-type: none;
+}
+.home_image {
+  width: 100%;
+}
